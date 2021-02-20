@@ -54,6 +54,161 @@ print(srpihot.get_information())
 
 ### 详细API介绍
 
+#### get_information()	获取个人信息
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_information())
+```
+
+#### get_information_raw()	获取正方系统个人信息json格式
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_information_raw())
+```
+
+#### get_grade()	获取成绩
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_grade())
+```
+
+#### get_grade_raw()	获取正方系统的成绩json格式
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_grade_raw())
+```
+
+#### get_exam()	获取考试信息
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_exam())
+```
+
+#### get_exam_raw() 获取正方系统的考试信息json格式
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_exam_raw())
+```
+
+#### get_schedule()	获取个人课表
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_schedule())
+```
+
+#### get_schedule_raw()	获取正方教务个人课表json格式
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_schedule_raw())
+```
+
+#### get_message()	获取调课等信息
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_message())
+```
+
+#### get_message_raw()	获取正方教务的调课等信息json格式
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_message_raw())
+```
+
+#### get_notice()	获取通知信息
+
+使用案例：
+
+```python
+from zfapi import *
+base_url = 'http://xxxx/'
+l = Login(base_url=base_url)
+l.login('账号', '密码')
+cookies = l.cookies
+srpihot = GetInfo(base_url=base_url, cookies=cookies)
+print(srpihot.get_notice())
+```
+
+
 **详细查看**[这些例子](https://github.com/Srpihot/zfapi/tree/master/examples)
 
 ### 感谢以下项目：
