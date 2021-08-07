@@ -26,6 +26,7 @@
 ### 如何使用：
 
 + 使用pip命令安装`pip install zfapi`
++ 注意：还需要格外 `pip install pycryptodome`。最近实在没有时间，等考完研会重构本项目，作为中间件提供给FIT计信学院使用。
 
 + 或者手动安装
 
@@ -53,18 +54,18 @@ print(srpihot.get_information())
 ```
 
 ### 详细API介绍
-#### get_information()	获取个人信息
-#### get_information_raw()	获取正方系统个人信息json格式
-#### get_grade()	获取成绩
-#### get_grade_raw()	获取正方系统的成绩json格式
-#### get_exam()	获取考试信息
-#### get_exam_raw() 获取正方系统的考试信息json格式
-#### get_schedule()	获取个人课表
-#### get_schedule_raw()	获取正方教务个人课表json格式
-#### get_message()	获取调课等信息
-#### get_message_raw()	获取正方教务的调课等信息json格式
-#### get_notice()	获取通知信息
-#### 基于flask的api接口
++ get_information()	获取个人信息
++ get_information_raw()	获取正方系统个人信息json格式
++ get_grade()	获取成绩
++ get_grade_raw()	获取正方系统的成绩json格式
++ get_exam()	获取考试信息
++ get_exam_raw() 获取正方系统的考试信息json格式
++ get_schedule()	获取个人课表
++ get_schedule_raw()	获取正方教务个人课表json格式
++ get_message()	获取调课等信息
++ get_message_raw()	获取正方教务的调课等信息json格式
++ get_notice()	获取通知信息
++ 基于flask的api接口
 
 **详细查看**[这些例子](https://github.com/Srpihot/zfapi/tree/master/examples)
 
